@@ -1,19 +1,26 @@
 # 🧵 Fashion Demand Intelligence — ML Portfolio by Zaw Lynn Htut
 
-This repo showcases applied machine learning projects inspired by real-world work in telecom and retail environments. It covers:
+# 🧠 GitHub Portfolio: Data Science & Machine Learning Projects
 
-- 🕰️ **Time-series forecasting** for demand prediction
-- 🧠 **Churn/revenue classification** via scikit-learn pipelines
-- 👚 **Product recommendation** models
-- 💬 **Sentiment scoring** on customer complaint transcripts using transformers
+Welcome! This repo showcases a collection of machine learning projects across various domains, highlighting practical use cases and clean code. Each project lives in its own notebook and uses synthetic or anonymized datasets to demonstrate core skills.
 
-## 🔍 Key Tech
+---
 
-- Python, Pandas, NumPy, scikit-learn
-- PyTorch & HuggingFace Transformers
-- SQL-based data extraction + simulated schema joins
-- Deployment-ready pipeline architecture
+## ✅ Projects
 
-## 💼 Context
+### 1. 📈 Demand Forecasting – Retail Sales (Time Series Regression)
 
-All pipelines mirror work done in production at scale (15M+ customers), adapted here for open sharing. Live monitoring, model optimization, and integration with campaign workflows are key themes.
+**Goal:** Predict product-level demand based on weather, season, and events.
+
+- 📁 Notebook: [`notebooks/01_forecasting_demand.ipynb`](notebooks/01_forecasting_demand.ipynb)
+- 📁 Data: [`data/forecasting_demand_simplified.csv`](data/forecasting_demand_simplified.csv)
+- ⚙️ Model: XGBoost Regression
+- 📊 Visuals: Trend plots, seasonality boxplots, actual vs predicted
+- 📉 Metrics: MAE, RMSE
+- 🔮 Bonus: Manual prediction simulation for upcoming week
+
+**Tech Stack:** Python, Pandas, scikit-learn, XGBoost, Seaborn, Matplotlib
+
+---
+
+
